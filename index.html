@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Enrique Aguilar · Full Stack</title>
+  <meta name="description" content="Enrique Aguilar Armenta — Desarrollador Full Stack con 4 años de experiencia 100 % remota. .NET, C#, WinUI, Node.js, SQL Server." />
+  <meta property="og:title" content="Enrique Aguilar · Desarrollador Full Stack" />
+  <meta property="og:description" content="4 años construyendo software de punta a punta, 100 % remoto." />
+  <meta property="og:image" content="assets/enrique.jpg" />
+  <meta name="theme-color" content="#0B1026" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='16' fill='%234361EE'/><text x='50%' y='56%' text-anchor='middle' dominant-baseline='middle' font-family='Arial' font-weight='700' font-size='28' fill='white'>EA</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>
+    try {
+      var t = localStorage.getItem('theme');
+      if (t) document.documentElement.dataset.theme = t;
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <div class="bg-orbs" aria-hidden="true"><span></span><span></span><span></span></div>
+
+  <header class="nav">
+    <a href="#inicio" class="brand" aria-label="Inicio">EA</a>
+    <nav class="nav-links" aria-label="Secciones">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#stack">Stack</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="themeToggle" aria-label="Cambiar tema"><i class="ti ti-moon"></i></button>
+      <a class="btn btn-primary btn-sm" href="assets/CV_Enrique_Aguilar_Armenta.pdf" download><i class="ti ti-download"></i><span>CV</span></a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- Inicio -->
+    <section id="inicio" class="bento">
+      <article class="card hero reveal">
+        <span class="badge badge-live"><span class="dot"></span>Disponible · 100 % remoto</span>
+        <p class="hello">Hola, soy</p>
+        <h1>Enrique Aguilar <span class="grad">Armenta</span></h1>
+        <p class="role">Desarrollador <span class="typed" id="typed">Full Stack</span><span class="caret" aria-hidden="true"></span></p>
+        <p class="lead">Ingeniero en Software. Construyo software de punta a punta: del modelo de datos y la API a la interfaz que usa la gente.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="#proyectos"><i class="ti ti-layout-grid"></i>Ver proyectos</a>
+          <a class="btn btn-ghost" href="#contacto"><i class="ti ti-send"></i>Hablemos</a>
+        </div>
+      </article>
+
+      <article class="card photo reveal" id="photoCard">
+        <img src="assets/enrique.jpg" alt="Foto de Enrique Aguilar Armenta" width="900" height="1348" />
+        <div class="photo-tag"><i class="ti ti-map-pin"></i>Tapachula, Chiapas, México</div>
+      </article>
+
+      <article class="card stat reveal">
+        <span class="stat-num"><span data-count="4">0</span></span>
+        <span class="stat-label">años de experiencia</span>
+      </article>
+
+      <article class="card stat reveal">
+        <span class="stat-num"><span data-count="15">0</span>+</span>
+        <span class="stat-label">proyectos en los que colaboré</span>
+      </article>
+
+      <article class="card remote reveal">
+        <div class="remote-head">
+          <i class="ti ti-world"></i>
+          <div>
+            <h3>100 % remoto desde el día uno</h3>
+            <p class="muted">Equipos distribuidos, entregas constantes.</p>
+          </div>
+        </div>
+        <div class="clock">
+          <span class="muted small">Mi hora ahora</span>
+          <span class="clock-time" id="clock">--:--</span>
+          <span class="muted small">GMT-6 · Centro de México</span>
+        </div>
+      </article>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="section">
+      <div class="section-head reveal">
+        <span class="eyebrow">01 · Sobre mí</span>
+        <h2>Código limpio, equipos que se entienden</h2>
+      </div>
+      <div class="bento">
+        <article class="card about reveal">
+          <p>Continúo desarrollándome como <strong>Desarrollador Full Stack</strong>, aportando experiencia en Backend y Frontend para diseñar y desarrollar soluciones web eficientes, escalables y orientadas a las necesidades del usuario.</p>
+          <p>Busco integrarme a un equipo donde pueda seguir fortaleciendo mis habilidades, enfrentar nuevos desafíos técnicos y contribuir al desarrollo de proyectos con impacto real.</p>
+          <p>Cuento con <strong>4 años de experiencia trabajando 100 % de forma remota</strong>, lo que me ha permitido desarrollar habilidades de comunicación, colaboración y organización en equipos distribuidos.</p>
+        </article>
+        <article class="card soft reveal">
+          <h3><i class="ti ti-home-share"></i>Lo que me dejó el trabajo remoto</h3>
+          <ul class="soft-list">
+            <li><i class="ti ti-message-circle"></i><div><strong>Comunicación clara</strong><span>Explico avances y bloqueos por escrito, sin esperar a la siguiente junta.</span></div></li>
+            <li><i class="ti ti-users-group"></i><div><strong>Colaboración</strong><span>Code review, ramas y PRs en equipos repartidos en varias ciudades.</span></div></li>
+            <li><i class="ti ti-calendar-check"></i><div><strong>Organización</strong><span>Tareas en tablero, entregas por etapas y gestión de mi propio tiempo.</span></div></li>
+            <li><i class="ti ti-bulb"></i><div><strong>Autonomía</strong><span>Investigo, propongo y resuelvo; pido ayuda cuando aporta, no por costumbre.</span></div></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Stack -->
+    <section id="stack" class="section">
+      <div class="section-head reveal">
+        <span class="eyebrow">02 · Stack</span>
+        <h2>Las herramientas que uso a diario</h2>
+      </div>
+      <article class="card stack-card reveal">
+        <div class="tabs" role="tablist" aria-label="Categorías del stack" id="stackTabs"></div>
+        <div class="chips" id="stackChips" aria-live="polite"></div>
+      </article>
+      <div class="marquee reveal" aria-hidden="true"><div class="marquee-track" id="marquee"></div></div>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="experiencia" class="section">
+      <div class="section-head reveal">
+        <span class="eyebrow">03 · Experiencia</span>
+        <h2>Dónde he trabajado</h2>
+      </div>
+      <div class="bento">
+        <article class="card timeline-card reveal">
+          <ol class="timeline" id="timeline"></ol>
+        </article>
+        <article class="card edu reveal">
+          <i class="ti ti-school edu-icon"></i>
+          <span class="eyebrow">Educación</span>
+          <h3>Ingeniería en Software</h3>
+          <p>Universidad Politécnica de Tapachula</p>
+          <p class="muted small">Chiapas, México · Egreso: diciembre 2023</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="section">
+      <div class="section-head reveal">
+        <span class="eyebrow">04 · Proyectos</span>
+        <h2>Proyectos en los que participé</h2>
+        <p class="muted">La mayoría son repositorios privados de clientes o empresas. Abre cualquiera para ver una vista previa: qué hace, qué hice yo y con qué.</p>
+      </div>
+      <div class="filters reveal" id="filters" role="toolbar" aria-label="Filtrar proyectos"></div>
+      <div class="projects" id="projects"></div>
+      <article class="card more reveal">
+        <span class="eyebrow">Otras colaboraciones</span>
+        <div class="more-list" id="moreList"></div>
+      </article>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section">
+      <div class="section-head reveal">
+        <span class="eyebrow">05 · Contacto</span>
+        <h2>¿Trabajamos juntos?</h2>
+      </div>
+      <div class="bento">
+        <article class="card contact-main reveal">
+          <h3>Escríbeme, respondo rápido</h3>
+          <p class="muted">Abierto a posiciones remotas como Full Stack o Backend .NET, y a proyectos freelance.</p>
+          <button class="copy" id="copyEmail" data-copy="enriqueaarmenta@gmail.com">
+            <i class="ti ti-mail"></i>
+            <span>enriqueaarmenta@gmail.com</span>
+            <span class="copy-hint" id="copyHint">Copiar</span>
+          </button>
+          <div class="cta">
+            <a class="btn btn-primary" href="mailto:enriqueaarmenta@gmail.com"><i class="ti ti-send"></i>Enviar correo</a>
+            <a class="btn btn-ghost" href="https://wa.me/529622851416" target="_blank" rel="noopener"><i class="ti ti-brand-whatsapp"></i>WhatsApp</a>
+          </div>
+        </article>
+        <a class="card contact-link reveal" href="tel:+529622851416">
+          <i class="ti ti-phone"></i>
+          <span class="muted small">Teléfono</span>
+          <strong>+52 962 285 1416</strong>
+        </a>
+        <a class="card contact-link reveal" href="https://github.com/Enagarlol" target="_blank" rel="noopener">
+          <i class="ti ti-brand-github"></i>
+          <span class="muted small">GitHub</span>
+          <strong>@Enagarlol</strong>
+        </a>
+        <a class="card contact-link reveal" href="assets/CV_Enrique_Aguilar_Armenta.pdf" download>
+          <i class="ti ti-file-cv"></i>
+          <span class="muted small">Currículum</span>
+          <strong>Descargar PDF</strong>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Enrique Aguilar Armenta · Hecho a mano con HTML, CSS y JavaScript.</p>
+    <a href="#inicio" class="icon-btn" aria-label="Volver arriba"><i class="ti ti-arrow-up"></i></a>
+  </footer>
+
+  <dialog class="modal" id="projectModal" aria-labelledby="modalTitle">
+    <button class="icon-btn modal-close" id="modalClose" aria-label="Cerrar"><i class="ti ti-x"></i></button>
+    <div class="preview" id="modalPreview"></div>
+    <div class="modal-body">
+      <div class="modal-meta" id="modalMeta"></div>
+      <h3 id="modalTitle"></h3>
+      <p id="modalDesc"></p>
+      <h4>Qué hice</h4>
+      <ul id="modalRole"></ul>
+      <div class="chips" id="modalStack"></div>
+      <div id="modalLink"></div>
+    </div>
+  </dialog>
+
+  <script src="main.js"></script>
+</body>
+</html>
