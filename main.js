@@ -21,7 +21,7 @@ const STACK = {
   Herramientas: [
     ['Git', 'ti-brand-git'], ['GitHub', 'ti-brand-github'], ['xUnit / NSubstitute', 'ti-test-pipe'],
     ['FlaUI (UI tests)', 'ti-click'], ['QuestPDF', 'ti-file-type-pdf'], ['EPPlus', 'ti-file-spreadsheet'],
-    ['IA aplicada al desarrollo', 'ti-sparkles']
+    ['IA aplicada al desarrollo', 'ti-sparkles'], ['Claude · Codex · ChatGPT', 'ti-robot']
   ]
 };
 
